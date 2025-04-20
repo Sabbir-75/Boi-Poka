@@ -5,7 +5,6 @@ import Books from '../Books/Books';
 
 const Home = () => {
     const useLoad = useLoaderData()
-    console.log(useLoad);
     return (
         <div className='px-15'>
             <Banner></Banner>

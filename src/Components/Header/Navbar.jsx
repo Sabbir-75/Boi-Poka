@@ -9,7 +9,7 @@ const Navbar = () => {
         <NavLink><li className=" border-2 border-white py-2 px-5 rounded-[8px] duration-300 hover:border-[#23BE0A] hover:font-semibold hover:text-[#23BE0A]">Pages to Read</li></NavLink>
     </>
     return (
-        <div className="navbar bg-base-100 WorkSans px-15 mb-10">
+        <div className=" navbar bg-base-100 WorkSans lg:px-15 lg:mb-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,8 +29,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end space-x-4">
-                <a className="btn px-[28px] py-[24px] text-xl font-semibold text-white bg-[#23BE0A] rounded-[8px]">Sign In</a>
-                <a className="btn px-[28px] py-[24px] text-xl font-semibold text-white bg-[#59C6D2] rounded-[8px]">Sign Up</a>
+                <a className="btn px-4 lg:px-[28px] py-3 lg:py-[24px] text-lg lg:text-xl font-semibold text-white bg-[#23BE0A] rounded-[8px]">Sign In</a>
+                <a className="btn px-4 lg:px-[28px] py-3 lg:py-[24px] text-lg lg:text-xl font-semibold text-white bg-[#59C6D2] rounded-[8px]">Sign Up</a>
             </div>
         </div>
     );
